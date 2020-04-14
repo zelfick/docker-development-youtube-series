@@ -27,6 +27,6 @@ jobs:
         docker build ./golang -t aimvector/golang:1.0.0
     - name: docker push
       run: |
-        docker push aimvector/csharp:1.0.0
-        docker push aimvector/nodejs:1.0.0
-        docker push aimvector/golang:1.0.
+        docker push zelfick/csharp:1.0.0
+        docker push zelfick/nodejs:1.0.0
+        docker push zelfick/golang:1.0.
